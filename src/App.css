@@ -1,0 +1,110 @@
+/* App.css */
+.App {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e0e5ec; /* 背景色 */
+  color: #333;
+  overflow: hidden; /* 避免滚动条 */
+}
+
+.app-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+h1 {
+  color: #333;
+}
+
+input, button {
+  background-color: #e0e5ec; /* 输入框和按钮背景色 */
+  border-radius: 15px; /* 圆角效果 */
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.1), -8px -8px 15px rgba(255, 255, 255, 0.7); /* 软阴影 */
+  transition: all 0.3s ease;
+}
+
+input:focus, button:hover {
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.2), -8px -8px 20px rgba(255, 255, 255, 0.8); /* 聚焦/悬停时阴影加深 */
+}
+
+button {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.todo-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input {
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 1rem;
+  margin-right: 10px;
+  width: 250px;
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.1), -8px -8px 15px rgba(255, 255, 255, 0.7); /* 输入框软阴影 */
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 15px;
+  width: 100%;
+  background-color: #e0e5ec;
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.1), -8px -8px 15px rgba(255, 255, 255, 0.7); /* 任务项软阴影 */
+  transition: background-color 0.3s ease;
+}
+
+.task-text {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+button.delete-btn {
+  background-color: #e0e5ec;
+  border-radius: 50%;
+  padding: 10px;
+  border: none;
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.1), -8px -8px 15px rgba(255, 255, 255, 0.7); /* 删除按钮软阴影 */
+  cursor: pointer;
+}
+
+button.delete-btn:hover {
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.2), -8px -8px 20px rgba(255, 255, 255, 0.8); /* 删除按钮悬停时阴影加深 */
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #aaa;
+}

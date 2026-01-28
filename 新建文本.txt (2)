@@ -1,0 +1,51 @@
+Trae (字节跳动出品)
+
+选项一：巨头的新杀器 —— Trae (字节跳动出品)
+**这是目前市面上唯一能把 Windsurf 按在地上摩擦的“完全免费”IDE。**
+
+*   **为什么是它？**
+    *   **发布时间：** 它比 Windsurf 晚，是真正的“下一代”IDE。
+    *   **完全免费：** 它的策略就是烧钱换用户。Claude 3.5 Sonnet、GPT-4o 这些在别处要钱的模型，在 Trae 里目前是**全免费**供你使用的。
+    *   **Builder 模式：** 它的 Agent 能力比 Windsurf 更激进，更擅长处理你这种“一团乱麻”的复杂项目。
+*   **Ubuntu 支持情况：** Trae 对 Linux 的支持正在铺开。去官网看一眼，如果有 Linux 版，**无脑下**。如果没有，看下一个。
+
+
+Void (或 PearAI)
+
+## 选项二：开源界的“越狱版 Cursor” —— Void (或 PearAI)
+这才是 Ubuntu 用户的**本命神器**。
+
+*   **为什么它是 2026 年的神？**
+    *   **Cursor/Windsurf 的克隆体：** 它们直接 Fork 了 VS Code，界面一模一样。
+    *   **完全去中心化：** 它们没有“公司”收你钱。
+    *   **模型只有你：** 你可以直接在里面接入 **DeepSeek V3 (免费/极其便宜)** 或者本地的 **Ollama**。
+    *   **隐私与稳定：** 你的 2 万行代码不会传给美国的服务器，都在你自己手里处理，**彻底解决闪退和上下文丢失**。
+    
+    
+    
+    
+    下面里面哪一个免费：
+opus编码
+
+
+Anthropic：别再造 Agent 了，未来是Skills的！
+
+2026年Skills元年正式开启！谷歌Antigravity支持Agent Skills，彻底改写传统AI编程！保姆级教程从安装到创建到调用！UI UX Pro Max Skills实测效果超预期
+
+
+*Agent (智能体)** 通常需要联网、需要大脑、需要花钱买 API。
+**Skills (技能)** 通常是指**封装好的功能模块**（比如：去底、算命、格式转换），这正是 **纯前端 (Client-Side)** 的强项！
+
+#### 你的行动方案：
+
+1.  **下载/使用 谷歌 Antigravity (Google Antigravity)**：
+    *   去搜它的官网（如果这是 2026 的新工具，肯定有 GitHub 或 官网）。
+    *   它应该是用来替代 VS Code 或 Windsurf 的某种 IDE，或者是像 Flutter 一样的框架。
+
+2.  **利用它的 "Skills" 库**：
+    *   不要自己写复杂的算法。
+    *   在 Antigravity 里找现成的 **"Skills"**（比如：`ImageProcessing Skill`, `FortuneTelling Skill`）。
+    *   把这些 Skills 导出为 **WebAssembly (WASM)** 或 **JS** 文件。
+
+3.  **部署到 Netlify**：
+    *   把 Antigravity 生成的代码，像我们之前说的那样，放到 `shenshou.shensist.top`。
