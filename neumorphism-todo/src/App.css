@@ -1,0 +1,42 @@
+.App {
+  background-color: #e0e5ec;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  color: #333;
+}
+
+input, button {
+  background: #e0e5ec;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  box-shadow: 8px 8px 15px #a3b1c6, -8px -8px 15px #ffffff;
+  margin: 10px;
+}
+
+input:focus, button:focus {
+  outline: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #e0e5ec;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 8px 8px 15px #a3b1c6, -8px -8px 15px #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
