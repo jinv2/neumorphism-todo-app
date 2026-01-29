@@ -1,6 +1,7 @@
 [build]
-  publish = "build"
-  command = "npm run build"
+  publish = "neumorphism-todo/build"
+  command = "cd neumorphism-todo && npm run build"
+  base = "neumorphism-todo"
 
 [build.environment]
   NODE_VERSION = "18"
